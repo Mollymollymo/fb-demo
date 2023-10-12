@@ -31,3 +31,13 @@
   font-size: 17px;
   
 }
+.account,.show-page{
+  display: flex;
+  cursor: pointer;
+}
+.menu,.messenger,.notice,.icon{
+  margin-left: 20px;
+}
+.home,.video,.market,.club{
+  margin-left: 90px;
+}
