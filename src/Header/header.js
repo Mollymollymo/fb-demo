@@ -11,7 +11,7 @@ const Header = () => {
               width="40"
             ></img>
           </div>
-          <input class="search" type="text" placeholder="搜尋Facebook" />
+          <input className="search" type="text" placeholder="搜尋Facebook" />
         </div>
         <div className="show-page">
           <div className="home">
