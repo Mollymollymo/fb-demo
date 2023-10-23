@@ -35,7 +35,7 @@
   display: flex;
   cursor: pointer;
 }
-.menu,.messenger,.notice,.icon{
+.menu,.messenger,.notice,.account{
   margin-left: 20px;
 }
 .home,.video,.market,.club{

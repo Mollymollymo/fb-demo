@@ -58,7 +58,7 @@ const Header = () => {
               width="25"
             ></img>
           </div>
-          <div className="icon">
+          <div className="account">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMz7RPw1Ln-AKDFP-hrexFZQLr8x7IJnHZEiZMeW7JylGE7PJSXNZ_1DQ6gFB3bzLt3ZY&usqp=CAU"
               width="25"
