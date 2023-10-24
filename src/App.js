@@ -1,12 +1,12 @@
-import Header from "./Header/header";
+import Navbar from "./Navbar/Navbar";
 import "./App.css";
-import WebPage from "./WebPage/WebPage";
+import Sidebar from "./Sidebar/Sidebar";
 
 function App() {
   return (
     <div>
-      <Header />
-      <WebPage />
+      <Navbar />
+      <Sidebar />
     </div>
   );
 }

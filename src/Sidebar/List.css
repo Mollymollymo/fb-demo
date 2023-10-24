@@ -1,0 +1,33 @@
+.list{
+  padding-top: 60px;
+  
+}
+.icon,.friend,.review,.label,.society,.film,.showMore,.sms,.game,.active,.fanPage,.donate,.advertise,.meta{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  width:300px;
+  height:25px;
+  transition: background-color 0.3s;
+  position:relative;
+  border-radius: 8px;
+}
+.icon:hover,.friend:hover,.review:hover,.label:hover,.society:hover,.film:hover,.showMore:hover,.sms:hover,.game:hover,.active:hover,.fanPage:hover,.donate:hover,.advertise:hover,.meta:hover{
+  background-color: rgb(196, 195, 195);
+}
+.icon_content,.friend_content,.review_content,.label_content,.society_content,.film_content,.showMore_content,.sms_content,.game_content,.active_content,.fanPage_content,.donate_content,.advertise_content,.meta_content{
+  margin-left: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.icon_img,.friend_img,.review_img,.label_img,.society_img,.film_img,.showMore_img,.sms_img,.game_img,.active_img,.fanPage_img,.donate_img,.advertise_img,.meta_img{
+  position:absolute;
+}
+.line{
+  height:2px;
+  width:300px;
+  background-color: rgb(196, 195, 195);
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-left: 20px;
+}

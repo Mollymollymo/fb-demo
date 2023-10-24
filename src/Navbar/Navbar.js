@@ -1,9 +1,9 @@
-import "./header.css";
+import "./Navbar.css";
 
 const Header = () => {
   return (
     <div>
-      <div className="header">
+      <div className="navbar">
         <div className="title">
           <div className="logo">
             <img
