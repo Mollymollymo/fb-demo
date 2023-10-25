@@ -1,0 +1,22 @@
+.listItem{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  width:300px;
+  height:25px;
+  transition: background-color 0.3s;
+  position:relative;
+  border-radius: 8px;
+}
+.listItem:hover{
+  background-color: rgb(196, 195, 195);
+}
+.listItem_img{
+  position:absolute;
+  width: 25px;
+}
+.listItem_content{
+  margin-left: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
