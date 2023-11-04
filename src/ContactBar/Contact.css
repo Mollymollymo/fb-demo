@@ -1,6 +1,3 @@
-.contact{
-  margin-top: 20px;
-}
 
 .contact-header{
   display: flex;
@@ -11,9 +8,10 @@
   display: flex;
 }
 
-.contact-title{
+.contact-title,.title{
   color: grey;
   font-size: 15px;
   margin-left: 20px;
   font-weight: bold;
+  margin-top: 20px;
 }

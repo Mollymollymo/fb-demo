@@ -3,7 +3,7 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <div className="profile">
-      <div className="title">
+      <div className="profile-title">
         <div className="title-content">你的粉絲專頁和個人檔案</div>
         <div className="dot">...</div>
       </div>

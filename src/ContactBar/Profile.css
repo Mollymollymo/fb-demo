@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 
-.title,.hbd-content{
+.profile-title,.hbd-content{
   display: flex;
   justify-content: space-between;
 }
@@ -27,4 +27,5 @@
 
 .hbd-content{
   margin-top: 10px;
+  margin-left: 20px;
 }

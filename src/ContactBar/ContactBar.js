@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 const ContactBar = () => {
   return (
-    <div>
+    <div className="contact-bar">
       <Profile />
       <Contact />
     </div>
