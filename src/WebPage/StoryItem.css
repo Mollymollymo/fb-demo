@@ -1,0 +1,23 @@
+.storyItem{
+  width:150px;
+  height:250px;
+  border-radius: 8px;
+  background-color: pink;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.storyItem_img{
+  position:absolute;
+  width: 150px;
+  height: 250px;
+  border-radius: 8px;
+  background-size: cover; 
+}
+.storyItem_title{
+  z-index: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  bottom: 0;
+}

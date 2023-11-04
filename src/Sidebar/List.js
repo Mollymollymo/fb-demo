@@ -1,5 +1,5 @@
 import "./List.css";
-import ShortCut from "./ShortCut";
+
 import React, { useState } from "react";
 import ListItem from "./ListItem";
 
@@ -80,8 +80,6 @@ const List = () => {
       />
 
       <div className="line"></div>
-
-      <ShortCut />
     </div>
   );
 };

@@ -1,0 +1,30 @@
+.profile{
+  padding-top: 60px;
+}
+
+.title-content,.hbd-title{
+  color: grey;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.title,.hbd-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot{
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;;
+}
+
+.dot:hover{
+  background-color: rgb(196, 195, 195);
+}
+
+.hbd-content{
+  margin-top: 10px;
+}

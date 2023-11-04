@@ -1,0 +1,19 @@
+.contact{
+  margin-top: 20px;
+}
+
+.contact-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content{
+  display: flex;
+}
+
+.contact-title{
+  color: grey;
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+}

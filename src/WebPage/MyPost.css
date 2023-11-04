@@ -1,0 +1,50 @@
+.my-post{
+  width:600px;
+  height:150px;
+  background-color:white ;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.my-input{
+  width:500px;
+  height:35px;
+  background-color: rgb(243, 240, 240);
+  border-radius: 32px;
+  border:none;
+  outline:none;
+  margin-left: 10px;
+  padding: 7px 15px;
+}
+.post-line{
+  height:2px;
+  width:550px;
+  background-color: rgb(196, 195, 195);
+  border-radius: 2px;
+  margin-top: 20px;
+  
+}
+.post-button{
+  display: flex;
+  justify-content: space-between;
+}
+.live,.pic,.feel{
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  width:140px;
+  height:25px;
+  transition: background-color 0.3s;
+  position:relative;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.live:hover,.pic:hover,.feel:hover{
+  background-color: rgb(196, 195, 195);
+}
