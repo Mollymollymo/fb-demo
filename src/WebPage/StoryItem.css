@@ -14,6 +14,11 @@
   height: 250px;
   border-radius: 8px;
   background-size: cover; 
+  object-fit: cover;
+  transition: transform 0.3s;  
+}
+.storyItem_img:hover{
+  transform: scale(1.1);
 }
 .storyItem_title{
   z-index: 0;
