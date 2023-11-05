@@ -41,3 +41,9 @@
 .home,.video,.market,.club{
   margin-left: 60px;
 }
+@media only screen and (max-width: 640px) {
+  .show-page{
+    display: none;
+  }
+}
+

@@ -4,8 +4,8 @@
   width: 100%;
   min-height: 100vh; 
   background-color:rgba(231, 231, 232, 0.817);
-  
 }
+
 .App {
   text-align: center;
 }
@@ -42,5 +42,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .page > :first-child,
+  .page > :last-child {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .page > :first-child{
+    display: none;
   }
 }

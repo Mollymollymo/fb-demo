@@ -7,11 +7,11 @@ import ContactBar from "./ContactBar/ContactBar";
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar className="navbar-component" />
       <div className="page">
-        <Sidebar />
-        <WebPage />
-        <ContactBar />
+        <Sidebar className="sidebar-component" />
+        <WebPage className="webpage-component" />
+        <ContactBar className="contactbar-component" />
       </div>
     </div>
   );
