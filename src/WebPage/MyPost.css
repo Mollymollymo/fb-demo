@@ -48,3 +48,8 @@
 .live:hover,.pic:hover,.feel:hover{
   background-color: rgb(196, 195, 195);
 }
+.my{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
