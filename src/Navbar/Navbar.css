@@ -35,11 +35,17 @@
   display: flex;
   cursor: pointer;
 }
-.menu,.messenger,.notice,.account{
+.menu,.messenger,.notice,.my-account{
   margin-left: 20px;
 }
-.home,.video,.market,.club{
+.video,.market,.club{
   margin-left: 60px;
+}
+.home,.video,.market,.club,.menu,.messenger,.notice,.my-account{
+  transition: background-color 0.3s;
+}
+.home:hover,.video:hover,.market:hover,.club:hover,.menu:hover,.messenger:hover,.notice:hover,.my-account:hover{
+  background-color: rgb(196, 195, 195);
 }
 @media only screen and (max-width: 640px) {
   .show-page{
